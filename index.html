@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>LoL Buddy — Free League of Legends Cooldown Tracker</title>
-  <meta name="description" content="LoL Buddy is a free, always-on-top League of Legends overlay that tracks enemy summoner spell and ultimate cooldowns in real time." />
+  <title>Chronokeeper — Free League of Legends Summoner Spell Tracker</title>
+  <meta name="description" content="Chronokeeper is a free, always-on-top League of Legends overlay that tracks enemy summoner spell and ultimate cooldowns in real time. Voice commands, ability haste, global shortcuts." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
@@ -14,7 +14,7 @@
   <!-- NAV -->
   <nav>
     <div class="nav-inner">
-      <span class="nav-logo">⚔️ LoL Buddy</span>
+      <span class="nav-logo">⏳ Chronokeeper</span>
       <a class="btn btn-donate" href="https://ko-fi.com/N4N51X0APL" target="_blank" rel="noopener">
         ☕ Buy me a coffee
       </a>
@@ -25,11 +25,11 @@
   <header class="hero">
     <div class="hero-inner">
       <div class="badge">Free Forever · No Account Needed</div>
-      <h1>Track enemy cooldowns.<br /><span class="gold">Win more games.</span></h1>
+      <h1>Keep time on<br /><span class="gold">every summoner spell.</span></h1>
       <p class="hero-sub">
-        LoL Buddy is a lightweight Windows overlay that sits on top of League and
-        tracks enemy summoner spell &amp; ultimate cooldowns — with real-time ability
-        haste, voice commands, and global keyboard shortcuts.
+        Chronokeeper is a lightweight Windows overlay that sits on top of League and
+        tracks enemy summoner spell &amp; ultimate cooldowns in real time — with ability
+        haste awareness, voice commands, rune detection, and global keyboard shortcuts.
       </p>
       <div class="hero-actions">
         <a class="btn btn-primary" href="https://github.com/bmanhd/lol-buddy/releases/latest" target="_blank" rel="noopener">
@@ -39,7 +39,7 @@
           ☕ Support development
         </a>
       </div>
-      <p class="hero-note">Windows 10 / 11 · Free installer · No login</p>
+      <p class="hero-note">Windows 10 / 11 · Free installer · No login required</p>
     </div>
   </header>
 
@@ -52,13 +52,13 @@
         <div class="feature-card">
           <div class="feature-icon">⏱</div>
           <h3>Live Cooldown Timers</h3>
-          <p>Click once when you see Flash or an ult used. LoL Buddy counts it down with a visual progress bar and alerts you the moment it's back up.</p>
+          <p>Click once when you see a summoner spell or ult used. Chronokeeper counts it down with a visual progress bar and alerts you the moment it's back up.</p>
         </div>
 
         <div class="feature-card">
           <div class="feature-icon">🔥</div>
           <h3>Ability Haste Aware</h3>
-          <p>Ult timers automatically adjust for each enemy's ability haste so you're never tracking the wrong cooldown length.</p>
+          <p>Ult timers automatically adjust for each enemy's ability haste pulled live from the game — so you're never tracking the wrong cooldown length.</p>
         </div>
 
         <div class="feature-card">
@@ -70,19 +70,19 @@
         <div class="feature-card">
           <div class="feature-icon">🎙</div>
           <h3>Voice Commands</h3>
-          <p>Say "Zed flash" or "Leona ult" and the timer starts automatically — fully offline, powered by on-device Whisper AI.</p>
+          <p>Say "Zed flash" or "Leona ult" and the timer starts automatically — fully offline, powered by on-device Whisper AI. No mic data ever leaves your PC.</p>
         </div>
 
         <div class="feature-card">
           <div class="feature-icon">🧿</div>
           <h3>Enemy Rune Detection</h3>
-          <p>See each enemy's keystone and secondary rune tree at a glance, colour-coded to match League's own rune palette.</p>
+          <p>See each enemy's keystone and secondary rune tree at a glance, colour-coded to match League's own rune palette. Know what you're playing against.</p>
         </div>
 
         <div class="feature-card">
           <div class="feature-icon">📌</div>
           <h3>Always on Top</h3>
-          <p>Transparent, frameless overlay that stays above League in full-screen windowed mode. Drag it wherever you want.</p>
+          <p>Transparent, frameless overlay that stays above League in full-screen windowed mode. Drag it wherever fits your setup best.</p>
         </div>
 
       </div>
@@ -94,10 +94,10 @@
     <div class="section-inner">
       <h2>Up and running in 60 seconds</h2>
       <ol class="steps">
-        <li><span class="step-num">1</span><div><strong>Download &amp; install</strong> — run the LoL Buddy Setup installer.</div></li>
-        <li><span class="step-num">2</span><div><strong>Launch a game</strong> — LoL Buddy detects your match automatically via the League Live Client API.</div></li>
-        <li><span class="step-num">3</span><div><strong>Click or press a key</strong> — mark an enemy's spell as used and watch the timer count down.</div></li>
-        <li><span class="step-num">4</span><div><strong>Get notified</strong> — a sound and system alert fires the moment the cooldown expires.</div></li>
+        <li><span class="step-num">1</span><div><strong>Download &amp; install</strong> — run the Chronokeeper Setup installer.</div></li>
+        <li><span class="step-num">2</span><div><strong>Launch a game</strong> — Chronokeeper detects your match automatically via the League Live Client API.</div></li>
+        <li><span class="step-num">3</span><div><strong>Click or press a numpad key</strong> — mark an enemy spell as used and watch the timer count down in real time.</div></li>
+        <li><span class="step-num">4</span><div><strong>Get notified</strong> — a sound and system alert fires the moment the cooldown expires so you never miss a window.</div></li>
       </ol>
     </div>
   </section>
@@ -107,8 +107,9 @@
     <div class="section-inner safe-inner">
       <div>
         <h2>Is it safe to use?</h2>
-        <p>Yes. LoL Buddy only reads data from the <strong>official League Live Client API</strong> that Riot exposes on your local machine. It never reads game memory, injects code, or communicates with any external server during a match. This is the same API used by approved overlay tools.</p>
-        <p>Voice processing runs entirely on your device — no audio is ever sent anywhere.</p>
+        <p>Yes. Chronokeeper only reads data from the <strong>official League Live Client API</strong> that Riot exposes on your local machine. It never reads game memory, injects code, or communicates with any external server during a match. This is the same API used by approved overlay tools.</p>
+        <p>Voice processing runs entirely on your device — no audio is ever uploaded or transmitted anywhere.</p>
+        <p class="riot-disclaimer">Chronokeeper is a fan-made tool and is not affiliated with, endorsed by, or associated with Riot Games. League of Legends is a trademark of Riot Games, Inc.</p>
       </div>
       <div class="safe-badge">
         <div class="safe-icon">🛡</div>
@@ -120,8 +121,8 @@
   <!-- DONATE -->
   <section class="donate" id="donate">
     <div class="section-inner donate-inner">
-      <h2>Keep LoL Buddy free</h2>
-      <p>LoL Buddy is built and maintained solo, in my spare time. It's completely free and always will be. If it's helped you climb, consider buying me a coffee — it goes directly toward new features like champion ability timers, ranked stats integration, and a Mac build.</p>
+      <h2>Keep Chronokeeper free</h2>
+      <p>Chronokeeper is built and maintained solo, in my spare time. It's completely free and always will be. If it's helped you track that one Flash that secured the game, consider buying me a coffee — it goes directly toward new features like champion ability timers, ranked stats integration, and a Mac build.</p>
       <a class="btn btn-donate-lg" href="https://ko-fi.com/N4N51X0APL" target="_blank" rel="noopener">
         ☕ Buy me a coffee on Ko-fi
       </a>
@@ -132,8 +133,8 @@
   <!-- FOOTER -->
   <footer>
     <div class="footer-inner">
-      <span>⚔️ LoL Buddy · Free &amp; open use</span>
-      <span>LoL Buddy is not affiliated with Riot Games.</span>
+      <span>⏳ Chronokeeper · Free fan-made tool</span>
+      <span>Not affiliated with Riot Games. League of Legends © Riot Games, Inc.</span>
       <a href="https://ko-fi.com/N4N51X0APL" target="_blank" rel="noopener">☕ Donate</a>
     </div>
   </footer>

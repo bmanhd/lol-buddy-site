@@ -257,6 +257,13 @@ section h2 {
   gap: 6px;
 }
 .safe-icon { font-size: 2.5rem; }
+.riot-disclaimer {
+  font-size: 0.75rem !important;
+  color: #5a5a6a !important;
+  margin-top: 16px !important;
+  font-style: italic;
+}
+
 .safe-label {
   font-size: 0.7rem;
   font-weight: 700;
